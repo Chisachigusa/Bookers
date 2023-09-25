@@ -20,67 +20,15 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
-    display: block;
+/*top*/
+
+.start {
+    color: gray;
 }
+p{
+    margin-bottom: 50px;
+}
+
 .notice{
     color: green;
-}
-
-table{
-    display: table;
-    border-collapse: separate;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: gray;
-}
-.main-title-block{
-    display: table-header-group;
-    vertical-align: middle;
-}
-.main-title{
-    display: table-row;
-    vertical-align: inherit;
-}
-th{
-    display: table-cell;
-    padding-bottom: 5px;
-}
-
-.main{
-    display: table-row-group;
-    vertical-align: middle;
-}
-.book-list{
-    display: table-row;
-}
-.book-title{
-    padding-bottom: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.book-body{
-    padding-bottom: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.book-redirect{
-    padding-bottom: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-a{
-    color: #000;
-}
-
-
-.form{
-    
-}
-.field{
-    margin-bottom: 10px;
 }
